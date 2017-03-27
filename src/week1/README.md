@@ -126,7 +126,7 @@ for ( i <- 0 until b.length) println(b(i))
 
 ### Interests
 - Functional Programming
-- Some 
+
 
 ### Other
 
