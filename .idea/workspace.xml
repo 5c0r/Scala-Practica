@@ -2,67 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06cb0d2a-c11a-45c2-b630-b54fefe25762" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch01/sec01/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch01/sec02/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch01/sec03/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch01/sec04/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch01/sec05/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch01/sec06/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch01/sec07/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch02/sec01/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch02/sec02/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch02/sec03/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch02/sec04/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch02/sec05/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch02/sec06/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch02/sec07/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch02/sec08/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch02/sec09/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch02/sec10/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch02/sec11/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch02/sec12/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch03/sec01/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch03/sec02/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch03/sec03/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch03/sec04/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch03/sec05/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch03/sec06/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch03/sec07/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch03/sec08/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch04/sec01/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch04/sec02/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch04/sec03/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch04/sec04/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch04/sec05/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch04/sec06/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch04/sec07/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch04/sec08/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch05/sec01/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch05/sec02/Person.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch05/sec02/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch05/sec03/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch05/sec04/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch05/sec05/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch05/sec06/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch05/sec07/Person1.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch05/sec07/Person2.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch05/sec07/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch05/sec08/Network.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch05/sec08/Network2.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch05/sec08/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch06/sec01/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch06/sec02/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch06/sec03/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch06/sec04/repl-session.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch06/sec05/Hello.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch06/sec05/Hello1.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch06/sec05/Hello2.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week1/codes/ch06/sec06/repl-session.scala" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1/SampleClass.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1/SampleProgram.scala" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/week1/README.md" afterPath="$PROJECT_DIR$/src/week1/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -148,8 +88,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="153">
-                <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -1187,8 +1127,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="153">
-            <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
