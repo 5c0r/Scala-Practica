@@ -13,7 +13,7 @@ res1: scala.collection.immutable.Range.Inclusive = empty Range 10 to 1
 
 3. Declare value and variables and Common used / Primitives data types
 
-```$scala
+```scala
 object PrimitiveTypes extends App {
   val number: Int = 10 + 10;
   val string: String = "This is a string !";
@@ -32,16 +32,14 @@ object PrimitiveTypes extends App {
 5. Operators , Loops
 - All operators are function on a class 
 - Operators are left-associative
-```$scala
-x + y + z is interpreted as ( x + y ) + z
-```
+i.e : x + y + z is interpreted as ( x + y ) + z
 6. Defining functions
-```
+```scala
 def square( x: Double ) 
 ==> square: (x: Double) :Double     
 ```
 7. Class , Object , Trait
-```$scala
+```scala
 // Approach for getting main Program
 
 object HelloWorld extends App {
@@ -96,7 +94,7 @@ val p3 = new Person("Fred", 42) // Second auxiliary constructor
 ```
 
 9. Array declaration
-```$xslt
+```scala
 // Fixed length Array 
 val fixedArr = new Array[Any](5)
 
