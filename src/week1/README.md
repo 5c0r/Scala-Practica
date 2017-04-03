@@ -29,6 +29,39 @@ object PrimitiveTypes extends App {
   val aUnit: Unit = () => aVariableInt = 1;
 }
 ```
+
+4. Maps and Tuples
+```scala
+val scores = Map("Alice" -> 10, "Bob" -> 3, "Cindy" -> 8)
+```
+
+- Access map values
+```scala
+val bobsScore = scores("Bob")
+```
+
+- Updating map values
+```scala
+ scores("Bob") = 10
+```
+
+- Tuples
+```scala
+val t = (1, 3.14, "Fred")
+```
+
+- Zipping 
+```scala
+val symbols = Array("<", "-", ">")
+val counts = Array(2, 10, 2)
+val pairs = symbols.zip(counts)
+```
+
+Will returns
+```
+Array(("<", 2), ("-", 10), (">", 2))
+```
+
 5. Operators , Loops
 - All operators are function on a class 
 - Operators are left-associative
@@ -79,9 +112,6 @@ class Person {
 val p1 = new Person // Primary constructor
 val p2 = new Person("Fred") // First auxiliary constructor
 val p3 = new Person("Fred", 42) // Second auxiliary constructor
-
-
-
 
 ```
 8. Anonymous function
