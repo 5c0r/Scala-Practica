@@ -135,13 +135,31 @@ class Account {
 class SavingAccount extends Account with ErrorLogger {
 
 }
- TODO TODO TODO
 
+```
+### TODO: Missing codes here
+
+3. Chapter 14 ( 1- 9 + 16 ) :  Pattern Matching and Case Classes
+
+## TODO:
+
+4. Chapter 21.5 : Implicit Parameters
+- Function or Method can have parameter list that is marked _implicit_
+- Compiler will look for default values to supply for the function call
+
+```scala
+implicit val multiplier : Integer = 10
+implicit val multiplier2 : Integer = 5
+
+def multiple(num : Integer ) ( implicit number : Integer ) = num * number
+
+// So it's not possible to have multiple implicits at same Type
+// If multiplier2 is removed 
+then multiple(2)  
+=> res1 : Int = 20
 
 ```
 
-3. Chapter 14
-4. Chapter 21.5
 
 
 ### What were interesting subject matters?
