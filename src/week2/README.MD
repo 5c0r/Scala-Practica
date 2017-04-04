@@ -119,29 +119,116 @@ trait Screamer {
     }
 }
 
-// Use "concreted implementation" from Screamer trait 
-// Mixin ? Sounds familiar to 'React guys'
-class AccountManager extends Something with ErrorLogger {
-    def doSomething( value : Double ) {
-        scream("Error here ! ")
-        value
-    }
+// Trait with abstract field
+trait OneLogger extends Screamer {
+    val logPath: String
 }
 
 class Account {
     var balance = 9.5
 }
 
-class SavingAccount extends Account with ErrorLogger {
-
+ class MyAccount extends Account with Scream with OneLogger {
+     val logPath : String = "Hello"
+     override def toString = logPath
+     override def scream( msg: String ) { print(msg) }
 }
 
+var account = new MyAccount
+
+account.scream("I'm screaming");
+=> I'm screamingg
+
 ```
-### TODO: Missing codes here
+
 
 3. Chapter 14 ( 1- 9 + 16 ) :  Pattern Matching and Case Classes
 
-## TODO:
+```scala
+
+// A switch 
+var sign = ...
+val ch: Char = ...
+
+ch match {
+  case '+' => sign = 1
+  case '-' => sign = -1
+  case _ => sign = 0 // Default ( catch_all pattern)
+}
+
+// Guard clause
+ch match {
+  case '+' => sign = 1
+  case '-' => sign = -1
+  case _ if Character.isDigit(ch) => digit = Character.digit(ch, 10)
+  case _ => sign = 0
+}
+
+// Pattern matching variable
+str(i) match {
+  case '+' => sign = 1
+  case '-' => sign = -1
+  case ch => digit = Character.digit(ch, 10) // ch is considered as a variable , possible to use in GUARD also
+}
+
+// Matching again types
+obj match {
+  case _: BigInt => Int.MaxValue // Matches any object of type BigInt
+  case BigInt => -1 // Matches the BigInt object of type Class
+}
+
+// !!! : Matching map is not possible
+case m: Map[String, Int] => ... // Don't
+
+// Instead map a generic Map
+case m: Map[_, _] => ... // OK
+
+// or Array
+case a: Array[String] => ...
+
+// Array matching
+arr match {
+    case Array(0) => "0"
+  case Array(x, y) => x + " " + y
+  case Array(0, _*) => "0 ..."
+  case _ => "something else"
+}
+
+
+// Patterns in variable declation
+
+val ( x, y ) = ( 4 , 3 )
+
+
+// Case classes
+
+abstract class Amount
+case class Dollar(value: Double) extends Amount
+case class Currency(value: Double, unit: String) extends Amount
+
+amt match {
+  case Dollar(v) => "$" + v
+  case Currency(_, u) => "Oh noes, I got " + u
+  case Nothing => ""
+}
+
+
+// Sealed classes must be in the same file as the class
+sealed abstract class Amount
+case class Dollar(value: Double) extends Amount
+case class Currency(value: Double, unit: String) extends Amount
+```
+
+
+
+When declaring Case Class 
+```
+• Each of the constructor parameters becomes a val unless it is explicitly declared as a var (which is not recommended).
+• An apply method is provided for the companion object that lets you construct objects without new, such as Dollar(29.95) or Currency(29.95, "EUR").
+• An unapply method is provided that makes pattern matching work—see Chapter 11 for the details. (You don’t really need to know these details to use case classes for pattern matching.)
+• Methods toString, equals, hashCode, and copy are generated unless they are explicitly provided.
+```
+
 
 4. Chapter 21.5 : Implicit Parameters
 - Function or Method can have parameter list that is marked _implicit_
@@ -157,10 +244,7 @@ def multiple(num : Integer ) ( implicit number : Integer ) = num * number
 // If multiplier2 is removed 
 then multiple(2)  
 => res1 : Int = 20
-
 ```
-
-
 
 ### What were interesting subject matters?
 - Inheritance construction order
@@ -170,6 +254,7 @@ then multiple(2)
 - Extending traits , trait construction order
 - Trait usage can be as similar to interfaces , what are the good uses of concreted traits ?
 - Is trait can be somehow called a decorator ?
+- Extractors ( unapply, unapplySeq )
 
 ### Other
 - Huy helped me a lot while learning the fun part of Scala
