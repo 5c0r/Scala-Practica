@@ -5,6 +5,7 @@ Scala Practice
 
 [Week 2 Diary](https://github.com/nmt1994/Scala-Practica/tree/master/src/week2)
 
+[Week 3 Diary](https://github.com/nmt1994/Scala-Practica/tree/master/src/week3)
 
 
 

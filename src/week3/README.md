@@ -34,7 +34,7 @@ Precedence and associative
 
 
 
-```
+```scala
 class Fraction(n: Int, d: Int) {
   private val num: Int = if (d == 0) 1 else n * sign(d) / gcd(n, d);
   private val den: Int = if (d == 0) 0 else d * sign(d) / gcd(n, d);
@@ -64,12 +64,12 @@ object Name {
 
 ```
 
-```
+
 
 ## Chapter 12
 
 Function is "first-class citizen" . You can store function in variable
-```
+```scala
 import scala.math._
 val num = 3.14
 val fun = ceil _
@@ -112,7 +112,6 @@ def multiplyBy( factor : Double ) => ( x: Double ) => x * factor;
 val triple = multiplyBy(3)
 
 val double = multiplyBy(2)
-
 
 ```
 
