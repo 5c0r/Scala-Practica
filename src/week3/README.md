@@ -79,9 +79,56 @@ double( x : Int ) => x * 2
 
 double(2) ==> 4 : Int
 
+// Function with function parameters
+def valueAtOneQuarter( f:( Double) => Double ) = f(0.25)
+
+valueAtOneQuarter( ceil _ )
+res1: Double = 1.0
+
+valueAtOneQuarter( sqrt )
+res2: Double = 0.5
+
+valueAtOneQuarter( sqrt ) = sqrt(0.25)
+
+valueAtOneQuarter( x => 3 )
+res4: Double = 3.0
+
+Why ? Because f(x) = 3 , so f(0.25) = 3
+
+// Higher order function
 Array(1,2,3).map(double);
 Array(2,3,4).map( ( x: Int) => x * 3 )
+Array(2,3,4).filter( x => x % 2 == 0 )
+Array(1,2,3,4,5).map(3); => [3,3,3,3,3];
 
+val f = ( x: Int, y: Int ) => x max y
+val min = (x : Int , y: Int) => x min y
+
+ res15.reduceLeft(min) => 4
+ res15.reduceLeft(f) => 20
+
+// Closure
+def multiplyBy( factor : Double ) => ( x: Double ) => x * factor;
+val triple = multiplyBy(3)
+
+val double = multiplyBy(2)
 
 
 ```
+
+### What were interesting and HARD
+
+- Higher-order functions , I have been using this a lot from Javascript , with map , filter , but never know they were taken from 'function programming paradigm'
+
+- Apply / Unapply can be considered as a 'object-to-any' mapper , depends on user usage
+
+- Anonymous function is cool , adding function as a parameter is cool , just imagine you are applying math function to another math function.
+
+- Scala seems to be very 'open' about operator , the convention of creating operator and precedence seems to be pretty straighforward. 
+=> By this , this makes a class more 'powerful' than a regular class , even that other OOPL does provide operator , but only at some extends
+
+- Extractor , this is something which is coming in C# also , except the pattern matching 
+
+#### References / Material Used for this week
+- Scala for the Impatient
+- Your slide
