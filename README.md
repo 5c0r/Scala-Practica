@@ -7,6 +7,9 @@ Scala Practice
 
 [Week 3 Diary](https://github.com/nmt1994/Scala-Practica/tree/master/src/week3)
 
+[Week 4 Diary](https://github.com/nmt1994/Scala-Practica/tree/master/src/week4)
+
+[Week 5 Diary](https://github.com/nmt1994/Scala-Practica/tree/master/src/week5)
 
 
 Akka Reflection
@@ -15,6 +18,9 @@ Akka Reflection
 
 [Week 2 Diary](https://github.com/nmt1994/Scala-Practica/tree/master/src/akka_week2)
 
+[Week 3 Diary](https://github.com/nmt1994/Scala-Practica/tree/master/src/akka_week3)
+
+[Week 4 Diary](https://github.com/nmt1994/Scala-Practica/tree/master/src/akka_week4)
 
 CHANGELOG
 --
